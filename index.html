@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+  </head>
+  <body>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mark Anthony Recio — Professional Reference Sheet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bg" aria-hidden="true">
+  <div class="bg-glow"></div>
+  <svg class="bg-grain" xmlns="http://www.w3.org/2000/svg">
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"></feTurbulence>
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.035 0"></feColorMatrix>
+    </filter>
+    <rect width="100%" height="100%" filter="url(#grain)"></rect>
+  </svg>
+</div>
+
+<div class="wrap">
+
+  <header class="reveal">
+    <img class="logo" src="https://raw.githubusercontent.com/markreciopro/marec_insights/main/Gemini_Generated_Image_noss7snoss7snoss.jpg" alt="Mark Anthony Recio logo" onerror="this.style.display='none'">
+    <div class="heading">
+      <h1>Mark Anthony Recio</h1>
+      <p class="role">Professional Reference Sheet</p>
+      <div class="contact-strip">
+        <span>Las Vegas, Nevada</span>
+        <a href="tel:+17027632573">702-763-2573</a>
+        <a href="mailto:mark.recio.pro@gmail.com">mark.recio.pro@gmail.com</a>
+      </div>
+    </div>
+  </header>
+
+  <p class="intro reveal">The following contacts can speak directly to my work on current and past assignments. Each is reachable by phone or email during regular business hours.</p>
+
+  <div class="refs">
+
+    <article class="ref-card reveal" data-kind="supervisor">
+      <p class="ref-role">Current assignment · temp supervisor, 2026</p>
+      <h2 class="ref-company">Express Employment Professionals</h2>
+      <p class="ref-contact-name">Jessica Morrow, Employment Specialist, EUCP</p>
+      <dl class="ref-details">
+        <dt>Phone</dt>
+        <dd><a href="tel:+17023819810">(702) 381-9810</a> <button class="copy-btn" data-copy="(702) 381-9810">copy</button></dd>
+        <dt>Address</dt>
+        <dd>900 S. Valley View Blvd, Ste. 190, Las Vegas, NV 89107</dd>
+        <dt>Website</dt>
+        <dd><a href="https://www.expresspros.com" target="_blank" rel="noopener">www.expresspros.com</a></dd>
+      </dl>
+    </article>
+
+    <article class="ref-card reveal" data-kind="contractor">
+      <p class="ref-role">Contractor reference</p>
+      <h2 class="ref-company">Synergy Staffing Solutions</h2>
+      <p class="ref-contact-name">Ken Arancibia</p>
+      <dl class="ref-details">
+        <dt>Email</dt>
+        <dd><a href="mailto:ken@lvsynergy.com">ken@lvsynergy.com</a> <button class="copy-btn" data-copy="ken@lvsynergy.com">copy</button></dd>
+        <dt>Phone</dt>
+        <dd><a href="tel:+17024498145">(702) 449-8145</a> <button class="copy-btn" data-copy="(702) 449-8145">copy</button></dd>
+        <dt>Address</dt>
+        <dd>871 Coronado Center Dr #200, Henderson, NV 89052</dd>
+      </dl>
+    </article>
+
+    <article class="ref-card reveal" data-kind="employer">
+      <p class="ref-role">Previous employer reference</p>
+      <h2 class="ref-company">Bella Brite Services</h2>
+      <p class="ref-contact-name">Juan Salazar</p>
+      <dl class="ref-details">
+        <dt>Phone</dt>
+        <dd><a href="tel:+17024206535">(702) 420-6535</a> <button class="copy-btn" data-copy="(702) 420-6535">copy</button></dd>
+        <dt>Address</dt>
+        <dd>475 S Grand Central Pkwy, Las Vegas, NV 89106</dd>
+      </dl>
+    </article>
+
+  </div>
+
+  <div class="closing reveal">
+    <p>Professional references available upon request.</p>
+    <button class="print-btn" id="printBtn">Save as PDF</button>
+  </div>
+
+  <p class="updated reveal">Document updated for 2026</p>
+
+</div>
+
+<div class="toast" id="toast">Copied to clipboard</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
